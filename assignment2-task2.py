@@ -1,17 +1,9 @@
-# Assignment 3 - Task 2
-# Using the math module for calculations
+# Assignment 2 - Task 2
+# Sum of integers from 1 to 50
 
-import math
+total_sum = 0
 
-# Taking input from the user
-num = float(input("Enter a number: "))
+for i in range(1, 51):
+    total_sum += i
 
-# Calculations using math module
-square_root = math.sqrt(num)
-log_value = math.log(num)
-sine_value = math.sin(num)
-
-# Displaying results
-print("Square root:", square_root)
-print("Logarithm:", log_value)
-print("Sine:", sine_value)
+print("The sum of numbers from 1 to 50 is:", total_sum)
